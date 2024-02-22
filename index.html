@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple tabs</title>
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon"> 
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./script.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="tabs">
+            <p class="tab" data-tab="home">Home</p>
+            <p class="tab" data-tab="pricing">Pricing</p>
+            <p class="tab" data-tab="about">About</p>
+        </div>
+        <div class="content-box">
+            <div class="content home-content" data-tab="home">
+                <h2>Home</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt nesciunt recusandae quo placeat cupiditate. Ad unde sequi excepturi! Quam, corporis neque! Sunt dolorum architecto dicta maiores ducimus dignissimos tempore commodi.</p>
+            </div>
+            <div class="content pricing-content hidden" data-tab="pricing">
+                <h2>Pricing</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt nesciunt recusandae quo placeat cupiditate. Ad unde sequi excepturi! </p>
+            </div>
+            <div class="content about-content hidden" data-tab="about">
+                <h2>About</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt nesciunt recusandae quo placeat cupiditate. Ad unde sequi excepturi! Quam, corporis neque! Sunt dolorum architecto dicta maiores ducimus dignissimos tempore commodi. Quam, corporis neque! Sunt dolorum architecto dicta maiores ducimus dignissimos tempore commodi.</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
